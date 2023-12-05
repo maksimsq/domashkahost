@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>ДЗ 05.12</title>
+	<link rel="stylesheet" href="main.css">
+</head>
+<body>
+	<h2>Програма для розв'язання квадратних рівнянь</h2>
+	<p><b>Квадратним рівнянням називається рівняння вигляду ax<sup>2</sup> + bx + c = 0 , де коефіцієнти a, b, c — будь-які дійсні числа, причому a ≠ 0.</b></p>
+	<form action="">
+		<input type="number" id="a" placeholder="a"> х<sup>2</sup> +
+		<input type="number" id="b" placeholder="b"> х +
+		<input type="number" id="c" placeholder="c"> = 0
+		<br><br><input type="button" value="Розв'язати" onclick="rez();">
+	</form>
+	<div id="answer">
+		<h2>Відповідь:</h2>
+		<pre id="result"></pre>
+	</div>
+	
+	
+	<script src="app.js"></script>
+	<noscript>Ваш веб-браузер не підтримує JS (JavaScript)</noscript>
+</body>
+</html>
